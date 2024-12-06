@@ -1,6 +1,6 @@
-package service;
+package com.example.final_app.service;
 
-import kg.com.api_salamat.controller.PriceController;
+import com.example.final_app.controller.PriceController;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
 import org.json.JSONObject;

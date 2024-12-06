@@ -1,4 +1,4 @@
-package service;
+package com.example.final_app.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

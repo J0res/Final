@@ -1,6 +1,6 @@
-package controller;
+package com.example.final_app.controller;
 
-import kg.com.api_salamat.service.TelegramService;
+import com.example.final_app.service.TelegramService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
