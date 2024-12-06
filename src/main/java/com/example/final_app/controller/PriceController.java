@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.ConcurrentHashMap;
-
+//dawdawd
 @RestController
 public class PriceController {
 
@@ -26,8 +26,8 @@ public class PriceController {
         // Формируем сообщение и отправляем в Telegram
         String message = String.format(
                 "💸 *%s -> Binance | %s*\n\n" +
-                        "📈 *Покупка:*\nЦена: %.2f USDT\nОбъем: %.6f\n\n" +
-                        "📉 *Продажа:*\nЦена: %.2f FUN\nОбъем: %.6f\n\n" +
+                        "📈 *Покупка:*\nОбъем: %.2f USDT\nЦена: %.6f\n\n" +
+                        "📉 *Продажа:*\nОбъем: %.2f FUN\nЦена: %.6f\n\n" +
                         "💰 *Прибыль:* %.2f USDT\n📊 *Спред:* %.2f%%\n",
                 exchange, symbol, buyPrice, buyPrice / 0.0001, sellPrice, sellPrice / 0.0001, profit, spread
         );
