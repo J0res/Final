@@ -1,10 +1,10 @@
-package service;
+package com.example.final_app.service;
 
-import kg.com.api_salamat.controller.PriceController;
-import kg.com.api_salamat.service.BinanceWebSocketClient;
-import kg.com.api_salamat.service.MEXCWebSocketClient;
-import kg.com.api_salamat.service.OKXWebSocketClient;
-import kg.com.api_salamat.service.PoloniexWebSocketClient;
+import com.example.final_app.controller.PriceController;
+import com.example.final_app.service.BinanceWebSocketClient;
+import com.example.final_app.service.MEXCWebSocketClient;
+import com.example.final_app.service.OKXWebSocketClient;
+import com.example.final_app.service.PoloniexWebSocketClient;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
